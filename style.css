@@ -12,8 +12,11 @@
     width: 100%;
     
 }
+.mb10{
+    margin-bottom: 10px;
+}
 .mb{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .mr{
     margin-right: 2%;
@@ -71,16 +74,16 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     min-height: 300px;
-        padding: 20px;
+    padding: 20px;
 
  
 }
 .boxcontent2{
      border-left: 1px  #CCC solid;
-    border-right: 1px #CCC solid;
+     border-right: 1px #CCC solid;
    
     min-height: 200px;
- 
+    background-color: #EEE ; 
 }
 .boxfooter{
     padding: 10px;
@@ -105,6 +108,7 @@
     border: 1px #EEE solid;
     border-radius: 5px;
     margin-bottom: 20px;
+    
 }
 .boxsp .img{
     min-height: 230px;
@@ -132,6 +136,130 @@
     color:white ;
     font-size: 0.8vw;
 }
+
 .fromtaikhoan{
     line-height: 150%;
+}
+.fromtaikhoan input[type="text"],
+
+.fromtaikhoan input[type="password"],
+.frmcontent input[type="text" ]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.fromtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+.fromtaikhoan input[type="submit"],
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+   .frmcontent input[type="button"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #CCC solid;
+}
+.fromtaikhoan input[type="submit"]:hover,
+ .frmcontent input[type="submit"]:hover,
+  .frmcontent input[type="reset"]:hover,
+   .frmcontent input[type="button"]:hover{
+   background-color: #CCC;}
+.fromtaikhoan li a{
+    color: teal;
+    text-decoration: none;
+
+}   
+.fromtaikhoan li a:hover{
+    color: #093;
+    text-decoration: underline;
+    
+}   
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+   list-style-type: none;
+
+}
+.menudoc ul li{
+    padding: 10px 20px;    
+    background-color: #EEE;
+    border-bottom: 1px #CCC solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+
+}
+.menudoc ul li:hover{
+    background-color: #CCC;
+}
+.searbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+
+}
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10x;
+    border-radius: 5px;
+    border: 1px #CCC solid;
+}
+.top10 a{
+   color: #666;
+   text-decoration: none;
+}
+.top10 a:hover{
+   color: #000;
+   text-decoration: underline;
+}
+.headeradmin{
+    background: #EEE;
+    border: 1px #CCC solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+.frmtitle{
+    background-color: #EEE;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.frmcontent {
+    padding: 20px;
+}
+.frmdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.frmdsloai table th:nth-child(1) {
+width: 10%;
+padding: 20px;
+background-color: #CCC;
+}
+.frmdsloai table th:nth-child(2) {
+width: 30%;
+background-color:#CCC;
+}
+.frmdsloai table th:nth-child(3) {
+width: 40%;
+background-color: #CCC;
+}
+.frmdsloai table th:nth-child(4) {
+width: 20%;
+background-color: #CCC;
+}
+.frmdsloai table td{
+    padding: 10px 20px;
+    border: 1px #ccc solid;
 }
